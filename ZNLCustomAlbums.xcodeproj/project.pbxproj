@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E751C5891EEBD59400F105F8 /* ZNLPhotosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E751C5881EEBD59400F105F8 /* ZNLPhotosController.swift */; };
+		E751C58B1EECFEA400F105F8 /* ZNLCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E751C58A1EECFEA400F105F8 /* ZNLCollectionViewCell.swift */; };
+		E751C58D1EED062C00F105F8 /* ZNLPhotoBrowserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E751C58C1EED062C00F105F8 /* ZNLPhotoBrowserController.swift */; };
+		E751C58F1EED082C00F105F8 /* ZNLPhotoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E751C58E1EED082C00F105F8 /* ZNLPhotoManager.swift */; };
+		E751C5921EED242000F105F8 /* ZNLClipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E751C5911EED242000F105F8 /* ZNLClipView.swift */; };
+		FA0C19C41EEE96E1006DD906 /* ZNLAlbumsListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0C19C31EEE96E0006DD906 /* ZNLAlbumsListCell.swift */; };
+		FAB98C3D1EEA77A70031B588 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB98C3C1EEA77A70031B588 /* AppDelegate.swift */; };
+		FAB98C3F1EEA77A70031B588 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB98C3E1EEA77A70031B588 /* ViewController.swift */; };
+		FAB98C421EEA77A70031B588 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB98C401EEA77A70031B588 /* Main.storyboard */; };
+		FAB98C441EEA77A80031B588 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB98C431EEA77A80031B588 /* Assets.xcassets */; };
+		FAB98C471EEA77A80031B588 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB98C451EEA77A80031B588 /* LaunchScreen.storyboard */; };
+		FAB98C4F1EEA78C40031B588 /* ZNLAlbumsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB98C4E1EEA78C40031B588 /* ZNLAlbumsController.swift */; };
+		FAB98C511EEA9A600031B588 /* ZNLAlbumsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB98C501EEA9A600031B588 /* ZNLAlbumsModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E751C5881EEBD59400F105F8 /* ZNLPhotosController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNLPhotosController.swift; sourceTree = "<group>"; };
+		E751C58A1EECFEA400F105F8 /* ZNLCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNLCollectionViewCell.swift; sourceTree = "<group>"; };
+		E751C58C1EED062C00F105F8 /* ZNLPhotoBrowserController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNLPhotoBrowserController.swift; sourceTree = "<group>"; };
+		E751C58E1EED082C00F105F8 /* ZNLPhotoManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNLPhotoManager.swift; sourceTree = "<group>"; };
+		E751C5911EED242000F105F8 /* ZNLClipView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNLClipView.swift; sourceTree = "<group>"; };
+		FA0C19C31EEE96E0006DD906 /* ZNLAlbumsListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNLAlbumsListCell.swift; sourceTree = "<group>"; };
+		FAB98C391EEA77A70031B588 /* ZNLCustomAlbums.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZNLCustomAlbums.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAB98C3C1EEA77A70031B588 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAB98C3E1EEA77A70031B588 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAB98C411EEA77A70031B588 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAB98C431EEA77A80031B588 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAB98C461EEA77A80031B588 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAB98C481EEA77A80031B588 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAB98C4E1EEA78C40031B588 /* ZNLAlbumsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNLAlbumsController.swift; sourceTree = "<group>"; };
+		FAB98C501EEA9A600031B588 /* ZNLAlbumsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNLAlbumsModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAB98C361EEA77A70031B588 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAB98C301EEA77A60031B588 = {
+			isa = PBXGroup;
+			children = (
+				FAB98C3B1EEA77A70031B588 /* ZNLCustomAlbums */,
+				FAB98C3A1EEA77A70031B588 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAB98C3A1EEA77A70031B588 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAB98C391EEA77A70031B588 /* ZNLCustomAlbums.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAB98C3B1EEA77A70031B588 /* ZNLCustomAlbums */ = {
+			isa = PBXGroup;
+			children = (
+				FAB98C3C1EEA77A70031B588 /* AppDelegate.swift */,
+				FAB98C3E1EEA77A70031B588 /* ViewController.swift */,
+				FAB98C4E1EEA78C40031B588 /* ZNLAlbumsController.swift */,
+				E751C5881EEBD59400F105F8 /* ZNLPhotosController.swift */,
+				E751C58C1EED062C00F105F8 /* ZNLPhotoBrowserController.swift */,
+				E751C58E1EED082C00F105F8 /* ZNLPhotoManager.swift */,
+				FAB98C501EEA9A600031B588 /* ZNLAlbumsModel.swift */,
+				FA0C19C31EEE96E0006DD906 /* ZNLAlbumsListCell.swift */,
+				E751C58A1EECFEA400F105F8 /* ZNLCollectionViewCell.swift */,
+				E751C5911EED242000F105F8 /* ZNLClipView.swift */,
+				FAB98C401EEA77A70031B588 /* Main.storyboard */,
+				FAB98C431EEA77A80031B588 /* Assets.xcassets */,
+				FAB98C451EEA77A80031B588 /* LaunchScreen.storyboard */,
+				FAB98C481EEA77A80031B588 /* Info.plist */,
+			);
+			path = ZNLCustomAlbums;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAB98C381EEA77A70031B588 /* ZNLCustomAlbums */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAB98C4B1EEA77A80031B588 /* Build configuration list for PBXNativeTarget "ZNLCustomAlbums" */;
+			buildPhases = (
+				FAB98C351EEA77A70031B588 /* Sources */,
+				FAB98C361EEA77A70031B588 /* Frameworks */,
+				FAB98C371EEA77A70031B588 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZNLCustomAlbums;
+			productName = ZNLCustomAlbums;
+			productReference = FAB98C391EEA77A70031B588 /* ZNLCustomAlbums.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAB98C311EEA77A60031B588 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = ZNL;
+				TargetAttributes = {
+					FAB98C381EEA77A70031B588 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = VHTS56THAN;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FAB98C341EEA77A60031B588 /* Build configuration list for PBXProject "ZNLCustomAlbums" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAB98C301EEA77A60031B588;
+			productRefGroup = FAB98C3A1EEA77A70031B588 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAB98C381EEA77A70031B588 /* ZNLCustomAlbums */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAB98C371EEA77A70031B588 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB98C471EEA77A80031B588 /* LaunchScreen.storyboard in Resources */,
+				FAB98C441EEA77A80031B588 /* Assets.xcassets in Resources */,
+				FAB98C421EEA77A70031B588 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAB98C351EEA77A70031B588 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB98C511EEA9A600031B588 /* ZNLAlbumsModel.swift in Sources */,
+				E751C58F1EED082C00F105F8 /* ZNLPhotoManager.swift in Sources */,
+				FAB98C3F1EEA77A70031B588 /* ViewController.swift in Sources */,
+				FAB98C3D1EEA77A70031B588 /* AppDelegate.swift in Sources */,
+				FAB98C4F1EEA78C40031B588 /* ZNLAlbumsController.swift in Sources */,
+				E751C58D1EED062C00F105F8 /* ZNLPhotoBrowserController.swift in Sources */,
+				E751C5891EEBD59400F105F8 /* ZNLPhotosController.swift in Sources */,
+				E751C5921EED242000F105F8 /* ZNLClipView.swift in Sources */,
+				FA0C19C41EEE96E1006DD906 /* ZNLAlbumsListCell.swift in Sources */,
+				E751C58B1EECFEA400F105F8 /* ZNLCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAB98C401EEA77A70031B588 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAB98C411EEA77A70031B588 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAB98C451EEA77A80031B588 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAB98C461EEA77A80031B588 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAB98C491EEA77A80031B588 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAB98C4A1EEA77A80031B588 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAB98C4C1EEA77A80031B588 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VHTS56THAN;
+				INFOPLIST_FILE = ZNLCustomAlbums/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZNL.ZNLCustomAlbums;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FAB98C4D1EEA77A80031B588 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VHTS56THAN;
+				INFOPLIST_FILE = ZNLCustomAlbums/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZNL.ZNLCustomAlbums;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAB98C341EEA77A60031B588 /* Build configuration list for PBXProject "ZNLCustomAlbums" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB98C491EEA77A80031B588 /* Debug */,
+				FAB98C4A1EEA77A80031B588 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAB98C4B1EEA77A80031B588 /* Build configuration list for PBXNativeTarget "ZNLCustomAlbums" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB98C4C1EEA77A80031B588 /* Debug */,
+				FAB98C4D1EEA77A80031B588 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAB98C311EEA77A60031B588 /* Project object */;
+}
